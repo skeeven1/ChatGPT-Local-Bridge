@@ -1,0 +1,5 @@
+{
+  "version": "19.9.28",
+  "basedOn": "19.9.27-candidate",
+  "notes": "Public tunnel preflight resilience, detailed diagnostics, and non-blocking degraded startup."
+}

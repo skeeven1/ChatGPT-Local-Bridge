@@ -1,0 +1,49 @@
+{
+  "version": "19.9.28",
+  "validated": {
+    "nodeSyntax": true,
+    "bridgeSelfTest": true,
+    "httpServerLocal": true,
+    "openApiOperations": 14,
+    "paintMacroSubactions": [
+      "draw",
+      "status",
+      "control"
+    ],
+    "paintModes": [
+      "raster-color",
+      "raster-gray",
+      "vector",
+      "exact"
+    ],
+    "rasterPlanner": true,
+    "dynamicLocalPort": true,
+    "runtimeVersionGate": true,
+    "windowContextFixtures": true,
+    "paintMovedFixture": true,
+    "paintMinimizedRecoveryFixture": true,
+    "paintMaximizedFixture": true,
+    "paintDrawnCanvasWithoutVisionFixture": true,
+    "focusRecoveryFixture": true,
+    "beforeAfterValidation": true,
+    "windowsUiHelperCompileAndIpc": true,
+    "v19_8TestsPassed": 14
+  },
+  "liveGuiPending": [
+    "paint-raster-helper Win32 injection",
+    "Paint palette auto-detection",
+    "physical mouse auto-pause hook",
+    "F8/F9 hotkeys",
+    "real Paint quality/speed validation"
+  ],
+  "currentIteration": {
+    "nodeSyntax": true,
+    "runtimeTest": true,
+    "localHttpAndAgentFixtures": {
+      "passed": 14,
+      "failed": 0
+    },
+    "publicTunnelLive": "not-validated-in-build-environment",
+    "paintLiveGui": "not-validated-in-build-environment"
+  }
+}
